@@ -87,10 +87,10 @@ http://localhost:3000
 ---
 ### **Archivos Principales**
 
-   - 📄 index.html: Estructura principal de la aplicación.
-   - ⚛️ App.jsx: Componente principal que monta la aplicación.
-   - 🔢 Contador.jsx: Componente que maneja la lógica del contador y botones.
-  - 🎨 App.scss: Estilos optimizados utilizando SCSS.
+   - 📄 **index.html**: Estructura principal de la aplicación.
+   - ⚛️ **App.jsx**: Componente principal que monta la aplicación.
+   - 🔢 **Contador.jsx**: Componente que maneja la lógica del contador y botones.
+  - 🎨 **App.scss**: Estilos optimizados utilizando SCSS.
 ---
 
 ### **Capturas de Pantalla**
