@@ -100,10 +100,10 @@ https://github.com/user-attachments/assets/f646b90a-c94e-4182-a2a1-d45d3d21d7b0
 ---
 ### **Mejoras Futuras**
 
-  🚀 Permitir personalizar el valor máximo del contador.
-  📝 Agregar pruebas unitarias con Jest.
-  🎨 Mejorar el diseño con Bootstrap o Material-UI.
-  📱 Convertir la aplicación en una PWA (Progressive Web App).
+ - 🚀 Permitir personalizar el valor máximo del contador.
+ - 📝 Agregar pruebas unitarias con Jest.
+ - 🎨 Mejorar el diseño con Bootstrap o Material-UI.
+ - 📱 Convertir la aplicación en una PWA (Progressive Web App).
 ---
 ### **Autor**
 @AndreaILara
