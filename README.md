@@ -1,3 +1,13 @@
+## **Tabla de Contenidos**
+1. [Características](#características)  
+2. [Tecnologías Utilizadas](#tecnologías-utilizadas)  
+3. [Requisitos Previos](#requisitos-previos)  
+4. [Instalación y Ejecución](#instalación-y-ejecución)  
+5. [Uso de la Aplicación](#uso-de-la-aplicación)  
+6. [Archivos Principales](#archivos-principales)  
+7. [Capturas de Pantalla](#capturas-de-pantalla)  
+8. [Autor](#autor)
+
 # React Counter App
 
 Una aplicación simple creada con **React** que permite al usuario incrementar, decrementar y reiniciar un contador, con un límite máximo configurable.  
@@ -83,9 +93,8 @@ http://localhost:3000
 ---
 
 ### **Capturas de Pantalla**
-![image](https://github.com/user-attachments/assets/01379767-d24f-409d-b309-d1a9420b9a42)
 
-![image](https://github.com/user-attachments/assets/0bf2f568-9dae-4b99-ab1f-ea04400ce063)
+https://github.com/user-attachments/assets/f646b90a-c94e-4182-a2a1-d45d3d21d7b0
 
 ---
 ### **Autor**
