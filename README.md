@@ -5,8 +5,9 @@
 4. [Instalación y Ejecución](#instalación-y-ejecución)  
 5. [Uso de la Aplicación](#uso-de-la-aplicación)  
 6. [Archivos Principales](#archivos-principales)  
-7. [Capturas de Pantalla](#capturas-de-pantalla)  
-8. [Autor](#autor)
+7. [Capturas de Pantalla](#capturas-de-pantalla)
+8. [Mejoras](#mejoras-futuras) 
+9. [Autor](#autor)
 
 # React Counter App
 
@@ -96,6 +97,13 @@ http://localhost:3000
 
 https://github.com/user-attachments/assets/f646b90a-c94e-4182-a2a1-d45d3d21d7b0
 
+---
+### **Mejoras Futuras**
+
+  🚀 Permitir personalizar el valor máximo del contador.
+  📝 Agregar pruebas unitarias con Jest.
+  🎨 Mejorar el diseño con Bootstrap o Material-UI.
+  📱 Convertir la aplicación en una PWA (Progressive Web App).
 ---
 ### **Autor**
 @AndreaILara
