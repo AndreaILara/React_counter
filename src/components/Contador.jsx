@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../App.scss"; // Importa tu archivo de estilos
+import "../App.scss"; 
 
 function Contador() {
   const [count, setCount] = useState(0);
