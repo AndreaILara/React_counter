@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# React Counter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación simple creada con **React** que permite al usuario incrementar, decrementar y reiniciar un contador, con un límite máximo configurable.  
+Este proyecto utiliza **Hooks** (useState) para manejar el estado del contador.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Características**
 
-### `npm start`
+- 📊 **Visualización del Contador**  
+  El contador muestra un valor inicial de **0**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ⬆️⬇️ **Botones de Incrementar/Decrementar**  
+  - **Incrementar**: Aumenta el contador en 1.  
+  - **Decrementar**: Disminuye el contador en 1 (sin bajar de 0).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🔄 **Reiniciar el Contador**  
+  Un botón que restablece el contador a 0.
 
-### `npm test`
+- 🚨 **Mensaje de Alerta**  
+  Se muestra un mensaje cuando el contador alcanza su valor máximo (por defecto, **16**).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## **Tecnologías Utilizadas**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ⚛️ **React**: Framework principal para la interfaz de usuario.
+- 🎨 **SCSS**: Estilización optimizada y mantenible.
+- 🔧 **Hooks**: Manejo del estado con `useState`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Requisitos Previos**
 
-### `npm run eject`
+Asegúrate de tener instalado:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Node.js y npm](https://nodejs.org/)  
+- [Git](https://git-scm.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Instalación y Ejecución**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Sigue estos pasos para levantar el proyecto localmente:
 
-## Learn More
+### 1. **Clonar el repositorio**
+```bash
+git clone https://github.com/AndreaILara/React_counter
+cd React_counter
+``` 
+### 2. **Instalar las dependencias**
+```bash
+npm install
+```
+### 3. **Ejecutar la aplicación**
+```bash
+npm start
+```
+### 4. **Abrir en el navegador**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+La aplicación estará disponible en:
+```bash
+http://localhost:3000
+```
+---
+### Uso de la Aplicación
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  -**Incrementar**: Haz clic en el botón "Incrementar" para sumar 1 al contador.
+  
+  -**Decrementar**: Haz clic en "Decrementar" para restar 1 (el valor no baja de 0).
+  
+  -**Reiniciar**: Restablece el contador a 0.
+  
+  -**Límite máximo**: Al llegar a 16, aparece un mensaje: "¡Máximo alcanzado!".
+  
+---
+### **Archivos Principales**
 
-### Code Splitting
+   - 📄 index.html: Estructura principal de la aplicación.
+   - ⚛️ App.jsx: Componente principal que monta la aplicación.
+   - 🔢 Contador.jsx: Componente que maneja la lógica del contador y botones.
+  - 🎨 App.scss: Estilos optimizados utilizando SCSS.
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **Capturas de Pantalla**
+![image](https://github.com/user-attachments/assets/01379767-d24f-409d-b309-d1a9420b9a42)
 
-### Analyzing the Bundle Size
+![image](https://github.com/user-attachments/assets/0bf2f568-9dae-4b99-ab1f-ea04400ce063)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
+### **Autor**
+@AndreaILara
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
